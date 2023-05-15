@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     // MENU
-    <nav className='w-full flex py-6 justify-between items-center navbar'>
+    <nav className='w-full flex py-4 justify-between items-center navbar'>
       {/* LOGO */}
       <img src={logo} alt='hoobank' className='w-[124px] h-[32px]' />
       {/* NAV LINKS */}
