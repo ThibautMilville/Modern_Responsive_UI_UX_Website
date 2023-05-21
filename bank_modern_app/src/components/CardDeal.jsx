@@ -4,6 +4,7 @@ import Button from "./Button";
 
 const CardDeal = () => (
   <section className={layout.section}>
+    {/* TEXT */}
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>Find a better card deal <br className="sm:block hidden" />
         in a few easy steps.</h2>
@@ -11,6 +12,10 @@ const CardDeal = () => (
         voluptas aperiam quas. Voluptates voluptas sit dicta praesentium totam?</p>
         
         <Button styles="mt-10" />
+    </div>
+    {/* IMAGE */}
+    <div className={layout.sectionImg}>
+      <img src={card} alt="card" className="w-[100%] h-[100%]" />
     </div>
   </section>
 )
